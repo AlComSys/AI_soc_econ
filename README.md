@@ -1,5 +1,5 @@
 # AI_soc_econ
-Компактная **многомасштабная модель воздействия ИИ на общество и экономику**, построенная на логике раздела 4.2: эффекты ИИ определяются автоматизацией задач, производительностью, скоростью распространения технологии, 
+Компактная **многомасштабная модель воздействия ИИ на общество и экономику**: эффекты ИИ определяются автоматизацией задач, производительностью, скоростью распространения технологии, 
 подготовкой кадров и институциональной адаптацией, а негативные эффекты включают цифровое неравенство, вытеснение труда, алгоритмическую дискриминацию, приватность и концентрацию рынков.
 
 ## Общая структура
@@ -38,7 +38,7 @@ $$
 
 Пусть:
 
-\(T_{i0}\) — базовое время выполнения задач;
+$T_{i0}$ — базовое время выполнения задач;
 \(T_{i1}\) — время с использованием ИИ; 
 \(w_i\) — часовая ставка с накладными расходами;
 \(V_i\) — объём задач;
@@ -331,19 +331,7 @@ $$
 Технологическая готовность:
 
 $$
-TR_r =
-\frac{1}{5}
-\left(
-I_r^{\mathrm{infra}}
-+
-I_r^{\mathrm{R\&D}}
-+
-I_r^{\mathrm{innov}}
-+
-I_r^{\mathrm{human}}
-+
-I_r^{\mathrm{resilience}}
-\right).
+TR_r = \frac{1}{5} \cdot \left( I_r^{\mathrm{infra}} + I_r^{\mathrm{RD}} + I_r^{\mathrm{innov}} + I_r^{\mathrm{human}} + I_r^{\mathrm{resilience}} \right)
 $$
 
 Раздел 4.2 определяет индекс технологической готовности через пять равновзвешенных блоков: цифровая инфраструктура, наука и исследования, инновационная активность, человеческий капитал и структурная устойчивость. 
@@ -554,16 +542,16 @@ $$
 
 $$
 \begin{cases} 
-N_i=B_i-C_i-\lambda_S S_i-\lambda_E E_i,
-N_f=GB_f-C_f^{\mathrm{AI}}-C_f^{\mathrm{adapt}}-C_f^{\mathrm{risk}}-\lambda_S S_f-\lambda_E E_f,
-N_r=B_r-C_r-\lambda_S S_r-\lambda_E E_r,
-GB_f=\Delta Revenue_f+\Delta CostSave_f+\Delta RiskAvoid_f+\Delta TimeValue_f,
-C_f^{\mathrm{AI}}=\sum_k C_{fk},
-Y_r=A_rK_r^{\alpha}L_r^{\beta}H_r^{1-\alpha-\beta},
-A_r=A_{r0}(1+\theta_1AI_r)(1+\theta_2TR_r)(1-\theta_3R_r^{\mathrm{social}}),
-K_r^{\mathrm{AI}}(t+1)=(1-\delta_{\mathrm{AI}})K_r^{\mathrm{AI}}(t)+I_r^{\mathrm{AI}}(t),
-AI_r=\sum_j s_{rj}AI_j,
-TR_r=\frac{1}{5}(I_r^{\mathrm{infra}}+I_r^{\mathrm{R\&D}}+I_r^{\mathrm{innov}}+I_r^{\mathrm{human}}+I_r^{\mathrm{resilience}}).
+N_i=B_i-C_i-\lambda_S S_i-\lambda_E E_i, \\
+N_f=GB_f-C_f^{\mathrm{AI}}-C_f^{\mathrm{adapt}}-C_f^{\mathrm{risk}}-\lambda_S S_f-\lambda_E E_f,\\
+N_r=B_r-C_r-\lambda_S S_r-\lambda_E E_r,\\
+GB_f=\Delta Revenue_f+\Delta CostSave_f+\Delta RiskAvoid_f+\Delta TimeValue_f,\\
+C_f^{\mathrm{AI}}=\sum_k C_{fk},\\
+Y_r=A_rK_r^{\alpha}L_r^{\beta}H_r^{1-\alpha-\beta},\\
+A_r=A_{r0}(1+\theta_1AI_r)(1+\theta_2TR_r)(1-\theta_3R_r^{\mathrm{social}}),\\
+K_r^{\mathrm{AI}}(t+1)=(1-\delta_{\mathrm{AI}})K_r^{\mathrm{AI}}(t)+I_r^{\mathrm{AI}}(t),\\
+AI_r=\sum_j s_{rj}AI_j,\\
+TR_r=\frac{1}{5}(I_r^{\mathrm{infra}}+I_r^{\mathrm{RD}}+I_r^{\mathrm{innov}}+I_r^{\mathrm{human}}+I_r^{\mathrm{resilience}}).\\
 \end{cases}
 $$
 
