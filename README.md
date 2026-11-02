@@ -23,39 +23,41 @@ $$
 - \(E_{i,f,r}\) — этический ущерб;
 - \(N_{i,f,r}\) — чистый социально-экономический эффект:
 
-SS
-N_{i,f,r}=B_{i,f,r}-C_{i,f,r}-\lambda_S S_{i,f,r}-\lambda_E E_{i,f,r} 
-SS,
+$$
+N_{i,f,r}  = B_{i,f,r}-C_{i,f,r} - \lambda_S S_{i,f,r} - \lambda_E E_{i,f,r} 
+$$
+
 где $\(\lambda_S,\lambda_E\ge 0\)$ — веса общества/регулятора для социальных и этических издержек. Такая запись соответствует требованию раздела 4.2 оценивать не только финансовую эффективность, 
 но и баланс технологической эффективности с социальными издержками. 
 
 ## Уровень «люди»
 
-Для работника или пользователя \(i\) эффект ИИ складывается из роста продуктивности, качества услуг и когнитивной разгрузки, но одновременно включает риски вытеснения, неравенства, потери приватности и снижения автономии. [pplxfilegitgateway-projectfiles-prod-use1.s3.us-east-1.amazonaws](https://pplxfilegitgateway-projectfiles-prod-use1.s3.us-east-1.amazonaws.com/projectfiles-prod/gateway-object-store/repos/files-6861b36099cd9ecd83eac8160ffc7bcd/lfs/objects/71/a1/71a122b706cfb16793aaeeaf4acda75fd6904ffa65bb40530fdb4715a1de0387?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Checksum-Mode=ENABLED&X-Amz-Credential=ASIA2F3EMEYEUVGZYP76%2F20261102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261102T104345Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCICMd8X5g%2BTox71waUZffmvB%2BFS6jl%2BiZuOW6bOuBtY4tAiBHrM1PWksT%2F1iypZS%2FQ%2B0BA8NZUQVRv2jM1csYmaJxESqnBQh4EAEaDDY5OTc1MzMwOTcwNSIMqEhfD43%2Bqs56kyqlKoQFMhCznvpFSiOy6yZHPxnTpdFzIEstbOrb%2FjtDhVjsk0HVWPvD1%2BrhIE4PMckGZWAkh%2F7qxBqAFa0KSWkdQDUN5roPx9%2FpOrHyKWdSzQ7SfRMInqlgm5Djha%2BobXnVWYqJZjy3Jf3a3ouz3W77pxGEy2nNEzs6I1pTybex%2ByFPC3RSeGVu0JYDfBTQkCd5NspthJKQmkWeDqJ0UjG8S0gfEEszQ%2FgCcKYatrC85ElS7Nzueaoeqpi7GuzbUNgfxXFajGHImn4V4sB6PG67AgBzT%2Fe79kU4V1D7kpYeEZjddfki1l4Vz7PQ7w5zigF%2FArjlVhALEGKwZObYfdu5u0T%2B8bYsOgl1rMT2EGolXRU7LjTw%2F%2F%2FQvo7W3%2BGQlPt9GBGj6zcZQ1KRcGMmXTBWc8ywbY91N96pVUwmJlGF2IL%2FZuNng9x2PesRXXc1u9GSA6Yzn19ez0wL%2FnboHAQwruMP8Hoh%2F8BR9trLutUyasY%2F03oyXZ6H%2BD3zX5Gc%2FnXoKDsySRddlIGDgZkY%2FLPiXcovpr4mnBiPjDqE9M41fH%2F54mFEaX4LJW2mrMPxK6dy79E0YmkLoPeevmyu2axiBRDX6P2rYt8ZCEbF8ZIX2kfVn3keyJ6e2b9PfuMlChDhDi4ai2lA9FnAHNUz8WXqcJBzz9wGq0lYdyTzcbOICeR7Vdot2vY47AdcvQ1fVK6g6h%2FnN3KWNjUIyQy9YwGkTY%2BgRTJ1%2FPKXq5qrM8YeBq2XomIN08JGAlgCnIRuSvL8a9dJnyvkkIx3T2DxCaR1WgM%2F93OsAvunN7sg2EDcyJ9h6JR%2B0BYKnTKMqKJrCD7nfbfklCUnpYe%2B4tfZp2kq96MQDehwZvQwsuug1wY6kQEdYQeihd9cYEUMLKglVpKdnzblVnql%2Fb8y%2BCLE2y3QqY1PTcxjjy7H8ku3Om%2B11bU86Akbe8L%2BnHuUUJBx3AiuffIh%2FscAHj%2F8lCNnyUQVl2KbTPHigBQaWVzDRajkKJ2kGpHw6EH2OFt30nPlqfeUf%2FgXmX5ma4ozDsIUSrsaW8FkmhXjXOC379isx6FJAtT1&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf&x-id=GetObject&X-Amz-Signature=4b94d033decf0f11f58abcbe700a9359afc8b191fd6cb7ba9478346ae30ba63a)
+Для работника или пользователя \(i\) эффект ИИ складывается из роста продуктивности, качества услуг и когнитивной разгрузки, но одновременно включает риски вытеснения, неравенства, потери приватности и снижения автономии. 
 
 ### Экономический эффект человека
 
 Пусть:
 
-- \(T_{i0}\) — базовое время выполнения задач;
-- \(T_{i1}\) — время с использованием ИИ;
-- \(w_i\) — часовая ставка с накладными расходами;
-- \(V_i\) — объём задач;
-- \(q_i\) — доля качественно выполненных задач;
-- \(P_i^{\mathrm{empl}}\) — вероятность сохранения или получения занятости.
+\(T_{i0}\) — базовое время выполнения задач;
+\(T_{i1}\) — время с использованием ИИ; 
+\(w_i\) — часовая ставка с накладными расходами;
+\(V_i\) — объём задач;
+\(q_i\) — доля качественно выполненных задач;
+\(P_i^{\mathrm{empl}}\) — вероятность сохранения или получения занятости.
 
 Тогда прямой эффект производительности:
 
 $$
-\Delta LP_i = \frac{LP_{i1}-LP_{i0}}{LP_{i0}}, \qquad LP_i=\frac{Q_i}{L_i},
+\Delta LP_i = \frac{LP_{i1}-LP_{i0}}{LP_{i0}}, \qquad LP_i=\frac{Q_i}{L_i}
 $$
+
 где \(Q_i\) — результат труда, \(L_i\) — трудозатраты. 
 
 
 Экономия времени и труда:
 
 $$
-B_i^{\mathrm{time}} = \left(T_{i0}-T_{i1}\right)w_iV_i.
+B_i^{\mathrm{time}} = \left(T_{i0}-T_{i1}\right)w_i V_i
 $$
 
 Эта формула соответствует приведённому в разделе 4.2 «эффекту ускорения»: экономия времени превращается в деньги, если высвобожденное время используется продуктивно или позволяет избежать найма. 
@@ -551,16 +553,16 @@ $$
 Многомасштабную модель можно записать как систему:
 
 $$
-\begin{cases}
-N_i=B_i-C_i-\lambda_S S_i-\lambda_E E_i,\$$3pt]
-N_f=GB_f-C_f^{\mathrm{AI}}-C_f^{\mathrm{adapt}}-C_f^{\mathrm{risk}}-\lambda_S S_f-\lambda_E E_f,\$$3pt]
-N_r=B_r-C_r-\lambda_S S_r-\lambda_E E_r,\$$3pt]
-GB_f=\Delta Revenue_f+\Delta CostSave_f+\Delta RiskAvoid_f+\Delta TimeValue_f,\$$3pt]
-C_f^{\mathrm{AI}}=\sum_k C_{fk},\$$3pt]
-Y_r=A_rK_r^{\alpha}L_r^{\beta}H_r^{1-\alpha-\beta},\$$3pt]
-A_r=A_{r0}(1+\theta_1AI_r)(1+\theta_2TR_r)(1-\theta_3R_r^{\mathrm{social}}),\$$3pt]
-K_r^{\mathrm{AI}}(t+1)=(1-\delta_{\mathrm{AI}})K_r^{\mathrm{AI}}(t)+I_r^{\mathrm{AI}}(t),\$$3pt]
-AI_r=\sum_j s_{rj}AI_j,\$$3pt]
+\begin{cases} 
+N_i=B_i-C_i-\lambda_S S_i-\lambda_E E_i,
+N_f=GB_f-C_f^{\mathrm{AI}}-C_f^{\mathrm{adapt}}-C_f^{\mathrm{risk}}-\lambda_S S_f-\lambda_E E_f,
+N_r=B_r-C_r-\lambda_S S_r-\lambda_E E_r,
+GB_f=\Delta Revenue_f+\Delta CostSave_f+\Delta RiskAvoid_f+\Delta TimeValue_f,
+C_f^{\mathrm{AI}}=\sum_k C_{fk},
+Y_r=A_rK_r^{\alpha}L_r^{\beta}H_r^{1-\alpha-\beta},
+A_r=A_{r0}(1+\theta_1AI_r)(1+\theta_2TR_r)(1-\theta_3R_r^{\mathrm{social}}),
+K_r^{\mathrm{AI}}(t+1)=(1-\delta_{\mathrm{AI}})K_r^{\mathrm{AI}}(t)+I_r^{\mathrm{AI}}(t),
+AI_r=\sum_j s_{rj}AI_j,
 TR_r=\frac{1}{5}(I_r^{\mathrm{infra}}+I_r^{\mathrm{R\&D}}+I_r^{\mathrm{innov}}+I_r^{\mathrm{human}}+I_r^{\mathrm{resilience}}).
 \end{cases}
 $$
